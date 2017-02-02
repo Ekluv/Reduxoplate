@@ -4,7 +4,7 @@ React Redux Boilerplate
 
 Checkout this repo, install dependencies, then start the gulp process with the following:
 
-    > git clone 
+    > git clone https://github.com/Ekluv/Reduxoplate.git
     > cd Reduxoplate
     > npm install
     > npm start
