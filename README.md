@@ -1,6 +1,9 @@
 # Reduxoplate
-React Redux Boilerplate
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/11562881/50420395-1abb3280-085c-11e9-85b2-ea837e78c2df.png" alt="logo">
+</p>
 
+React Redux Boilerplate
 
 Checkout this repo, install dependencies, then start the gulp process with the following:
 
@@ -15,3 +18,15 @@ Download the .zip file. Extract the contents of the zip file, then open your ter
 
     > npm install
     > npm start
+
+
+Build Process(Production)
+
+    > npm run build
+
+
+
+Things to follow:
+
+    > Javascript style guide -> http://airbnb.io/javascript/
+    > Linting -> Eslint

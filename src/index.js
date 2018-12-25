@@ -1,29 +1,17 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-
 import { Provider } from 'react-redux';
-import { createStore, applyMiddleware } from 'redux';
-import thunk from 'redux-thunk'; // thunk middleware for aync actions in redux(doing things redux way)
 
-import SampleComponent from './components/sample_component';
-import rootReducer from './reducers';
+import createReduxStore from './store';
+import App from './containers/App';
 
-const createStoreWithMiddleware = applyMiddleware(thunk)(createStore);
+import '@assets/stylesheets/main.scss';
 
-class App extends React.Component {
-	constructor() {
-		super();
-	}
-	render() {
-		return (
-		<div className="app">
-			<SampleComponent/>
-		</div>
-		);
-	}
-}
+const store = createReduxStore();
 
 ReactDOM.render(
-  <Provider store={createStoreWithMiddleware(rootReducer)}>
+  <Provider store={store}>
     <App />
-  </Provider>, document.querySelector('.container-fluid'))
+  </Provider>,
+  document.getElementById('app'),
+);
