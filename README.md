@@ -30,3 +30,11 @@ Things to follow:
 
     > Javascript style guide -> http://airbnb.io/javascript/
     > Linting -> Eslint
+
+Features:
+
+    > Next Gen Javascript
+    > SCSS with autoprefixer
+    > Typescript support
+    > Lazy loading
+    > Route based chunking
