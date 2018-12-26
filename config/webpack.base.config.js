@@ -12,10 +12,14 @@ module.exports = {
     publicPath: '/',
     filename: 'bundle.[hash:8].js',
   },
+  resolve: {
+    extensions: ['.ts', '.tsx', '.js', '.json']
+  },
   module: {
     rules: [
       {
-        test: /\.js$/,
+        // Include ts, tsx, js, and jsx files.
+        test: /\.(ts|js)x?$/,
         exclude: /node_modules/,
         use: {
           loader: 'babel-loader',
