@@ -5,6 +5,14 @@
 
 React Redux Boilerplate
 
+Features:
+
+    > Next Gen Javascript
+    > SCSS with autoprefixer
+    > Typescript support
+    > Lazy loading
+    > Route based chunking
+
 Checkout this repo, install dependencies, then start the gulp process with the following:
 
     > git clone https://github.com/Ekluv/Reduxoplate.git
@@ -30,11 +38,3 @@ Things to follow:
 
     > Javascript style guide -> http://airbnb.io/javascript/
     > Linting -> Eslint
-
-Features:
-
-    > Next Gen Javascript
-    > SCSS with autoprefixer
-    > Typescript support
-    > Lazy loading
-    > Route based chunking
