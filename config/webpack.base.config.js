@@ -32,7 +32,7 @@ module.exports = {
           'css-loader',
           {
             loader: 'postcss-loader',
-            options: { config: { path: './config/' } },
+            options: { postcssOptions: { plugins: [['autoprefixer']]},},
           },
           'sass-loader',
         ],
